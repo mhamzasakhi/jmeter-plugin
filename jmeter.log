@@ -1,0 +1,88 @@
+2021-04-23 21:02:52,741 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2021-04-23 21:02:52,768 INFO o.a.j.JMeter: Loading user properties from: D:\Java\jmeter_plugin\JMeter\bin\user.properties
+2021-04-23 21:02:52,768 INFO o.a.j.JMeter: Loading system properties from: D:\Java\jmeter_plugin\JMeter\bin\system.properties
+2021-04-23 21:02:52,778 INFO o.a.j.JMeter: Copyright (c) 1998-2021 The Apache Software Foundation
+2021-04-23 21:02:52,779 INFO o.a.j.JMeter: Version 5.4.1
+2021-04-23 21:02:52,779 INFO o.a.j.JMeter: java.version=16
+2021-04-23 21:02:52,779 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2021-04-23 21:02:52,779 INFO o.a.j.JMeter: os.name=Windows 10
+2021-04-23 21:02:52,779 INFO o.a.j.JMeter: os.arch=amd64
+2021-04-23 21:02:52,779 INFO o.a.j.JMeter: os.version=10.0
+2021-04-23 21:02:52,779 INFO o.a.j.JMeter: file.encoding=Cp1252
+2021-04-23 21:02:52,779 INFO o.a.j.JMeter: java.awt.headless=true
+2021-04-23 21:02:52,779 INFO o.a.j.JMeter: Max memory     =1073741824
+2021-04-23 21:02:52,779 INFO o.a.j.JMeter: Available Processors =4
+2021-04-23 21:02:52,790 INFO o.a.j.JMeter: Default Locale=English (EN)
+2021-04-23 21:02:52,790 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2021-04-23 21:02:52,790 INFO o.a.j.JMeter: JMeterHome=D:\Java\jmeter_plugin\JMeter
+2021-04-23 21:02:52,790 INFO o.a.j.JMeter: user.dir  =D:\Java\jmeter_plugin
+2021-04-23 21:02:52,791 INFO o.a.j.JMeter: PWD       =D:\Java\jmeter_plugin
+2021-04-23 21:02:52,791 INFO o.a.j.JMeter: IP: 192.168.19.137 Name: DESKTOP-2QHMARI FullName: DESKTOP-2QHMARI
+2021-04-23 21:02:52,798 INFO o.a.j.s.FileServer: Default base='D:\Java\jmeter_plugin'
+2021-04-23 21:02:52,799 INFO o.a.j.s.FileServer: Set new base='D:\Java\jmeter_plugin\processingFile'
+2021-04-23 21:02:53,042 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2021-04-23 21:02:53,089 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2021-04-23 21:02:53,095 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2021-04-23 21:02:53,099 INFO o.a.j.s.SaveService: Loading file: processingFile\BuyPets.jmx
+2021-04-23 21:02:53,166 INFO o.a.j.p.h.c.CookieManager: Settings: Delete null: true Check: true Allow variable: true Save: false Prefix: COOKIE_
+2021-04-23 21:02:53,203 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2021-04-23 21:02:53,204 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2021-04-23 21:02:53,204 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2021-04-23 21:02:53,204 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2021-04-23 21:02:53,205 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2021-04-23 21:02:53,205 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2021-04-23 21:02:53,292 INFO o.a.j.JMeter: Creating summariser <summary>
+2021-04-23 21:02:53,301 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2021-04-23 21:02:53,304 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2021-04-23 21:02:53,305 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2021-04-23 21:02:53,316 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2021-04-23 21:02:53,316 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2021-04-23 21:02:53,456 INFO o.a.j.JMeter: Running test (1619193773456)
+2021-04-23 21:02:53,481 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Buy Pets
+2021-04-23 21:02:53,482 INFO o.a.j.e.StandardJMeterEngine: Starting 10 threads for group Buy Pets.
+2021-04-23 21:02:53,482 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2021-04-23 21:02:53,482 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=10 ramp-up=0 delayedStart=false
+2021-04-23 21:02:53,499 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2021-04-23 21:02:53,499 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2021-04-23 21:02:53,500 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2021-04-23 21:02:53,500 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2021-04-23 21:02:53,504 INFO o.a.j.t.JMeterThread: Thread started: Buy Pets 1-1
+2021-04-23 21:02:53,510 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2021-04-23 21:02:53,511 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2021-04-23 21:02:53,512 INFO o.a.j.t.JMeterThread: Thread started: Buy Pets 1-2
+2021-04-23 21:02:53,513 INFO o.a.j.t.JMeterThread: Thread started: Buy Pets 1-3
+2021-04-23 21:02:53,521 INFO o.a.j.t.JMeterThread: Thread started: Buy Pets 1-5
+2021-04-23 21:02:53,524 INFO o.a.j.t.JMeterThread: Thread started: Buy Pets 1-6
+2021-04-23 21:02:53,529 INFO o.a.j.t.JMeterThread: Thread started: Buy Pets 1-7
+2021-04-23 21:02:53,529 INFO o.a.j.t.JMeterThread: Thread started: Buy Pets 1-8
+2021-04-23 21:02:53,531 INFO o.a.j.t.JMeterThread: Thread started: Buy Pets 1-4
+2021-04-23 21:02:53,531 INFO o.a.j.t.JMeterThread: Thread started: Buy Pets 1-9
+2021-04-23 21:02:53,533 INFO o.a.j.t.JMeterThread: Thread started: Buy Pets 1-10
+2021-04-23 21:02:53,554 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = DESKTOP-2QHMARI
+2021-04-23 21:02:53,563 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2021-04-23 21:02:58,736 INFO o.a.j.u.JsseSSLManager: Using default SSL protocol: TLS
+2021-04-23 21:02:58,737 INFO o.a.j.u.JsseSSLManager: SSL session context: per-thread
+2021-04-23 21:03:00,201 INFO o.a.j.r.Summariser: summary +    121 in 00:00:07 =   17.9/s Avg:   515 Min:   252 Max:  1171 Err:     0 (0.00%) Active: 10 Started: 10 Finished: 0
+2021-04-23 21:03:03,539 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Buy Pets 1-4
+2021-04-23 21:03:03,540 INFO o.a.j.t.JMeterThread: Thread finished: Buy Pets 1-4
+2021-04-23 21:03:04,043 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Buy Pets 1-8
+2021-04-23 21:03:04,044 INFO o.a.j.t.JMeterThread: Thread finished: Buy Pets 1-8
+2021-04-23 21:03:04,266 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Buy Pets 1-10
+2021-04-23 21:03:04,267 INFO o.a.j.t.JMeterThread: Thread finished: Buy Pets 1-10
+2021-04-23 21:03:04,303 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Buy Pets 1-3
+2021-04-23 21:03:04,303 INFO o.a.j.t.JMeterThread: Thread finished: Buy Pets 1-3
+2021-04-23 21:03:04,365 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Buy Pets 1-9
+2021-04-23 21:03:04,365 INFO o.a.j.t.JMeterThread: Thread finished: Buy Pets 1-9
+2021-04-23 21:03:04,366 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Buy Pets 1-7
+2021-04-23 21:03:04,367 INFO o.a.j.t.JMeterThread: Thread finished: Buy Pets 1-7
+2021-04-23 21:03:04,412 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Buy Pets 1-1
+2021-04-23 21:03:04,412 INFO o.a.j.t.JMeterThread: Thread finished: Buy Pets 1-1
+2021-04-23 21:03:04,414 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Buy Pets 1-6
+2021-04-23 21:03:04,415 INFO o.a.j.t.JMeterThread: Thread finished: Buy Pets 1-6
+2021-04-23 21:03:04,508 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Buy Pets 1-5
+2021-04-23 21:03:04,509 INFO o.a.j.t.JMeterThread: Thread finished: Buy Pets 1-5
+2021-04-23 21:03:04,511 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Buy Pets 1-2
+2021-04-23 21:03:04,512 INFO o.a.j.t.JMeterThread: Thread finished: Buy Pets 1-2
+2021-04-23 21:03:04,514 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2021-04-23 21:03:04,520 INFO o.a.j.r.Summariser: summary +     69 in 00:00:04 =   16.0/s Avg:   623 Min:   236 Max:  1471 Err:     0 (0.00%) Active: 0 Started: 10 Finished: 10
+2021-04-23 21:03:04,522 INFO o.a.j.r.Summariser: summary =    190 in 00:00:11 =   17.2/s Avg:   554 Min:   236 Max:  1471 Err:     0 (0.00%)

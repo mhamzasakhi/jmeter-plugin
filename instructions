@@ -1,0 +1,35 @@
+
+The purpose of this Java application is to run a JMeter test and return a FAIL, PASS or WARNING  (0, 1 or 2) based on the command line paramters:
+
+test=XXXXXX                   // name of the test without an extension -required
+completions=XXXXX			  // expected number of thread completions
+avg=XXXXX					  // Average server delay 
+variance=XX					  // max tolerance expressed as a percentage (default is 20%)
+rate=XX 					  // max error rate as a percentage
+
+If completions is specified return a zero (failed) if actual completions is less than variance% of expected
+
+if avg is greater than the average server delay + variance%  return a 2 (WARNING)
+
+if error rate is > rate return zero (failed)
+
+if there are any 500 series errors or any 400 series (except for 401) return zero (fail)
+
+if there are any failures return zero (fail)
+
+otherwise return 1  (pass)
+
+
+please add 3 more command line parameters:
+1. maxthreads
+2. ramptime
+3. duration
+
+if these are specified they will temporarily override the values in the JMX file
+
+
+input sample:
+java DriverClass test=BuyPets completions=1100 avg=800 varience=25 rate=2
+
+new input sample:
+java DriverClass test=BuyPets completions=1100 avg=800 varience=20 rate=2 maxthreads=12 ramptime=1 duration=70
